@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'https://survey-backend-dstk.onrender.com'; 
+const baseURL = 'http://localhost:3000/api'; 
 
 const api = axios.create({
   baseURL,
