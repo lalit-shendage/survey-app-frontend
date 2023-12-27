@@ -46,7 +46,7 @@ export const submitSurveyResponse = (surveyId, response) => async (dispatch) => 
   }
 
   try {
-    await axios.post(`/survey/submit/${surveyId}`, response, {
+    await axios.post(`${api}/survey/submit/${surveyId}`, response, {
       headers: {
         'Content-Type': 'application/json',
       },
